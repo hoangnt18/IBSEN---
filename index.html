@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBSEN</title>
+        <!-- font-awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+            <!-- font chu -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./CSS/video.popup.css">
+        <link rel="stylesheet" href="./CSS/slick.css">
+        <link rel="stylesheet" href="./CSS/slick-theme.css">
+        
+
+        <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+    
+    <header class="container-fluid ">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark IBSENNavbar col-sm-12 col-lg-12 col-md-12" style="background-color: transparent !important;">
+          <a class="navbar-brand" href="#"><img src="img/logo-isben.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#IBSENNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+    
+          <div class="collapse navbar-collapse float-right " id="IBSENNav">
+            <ul class="navbar-nav mx-auto ">
+                <li class="nav-item active">
+                    <a class="nav-link font-weight-bold" href="#">Trang Chủ<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link font-weight-bold " href="#">Giới Thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="#">Tin Tức</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="#">Câu Chuyện</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="#">Đối Tác</a>
+                </li>
+            </ul>
+          </div>
+    
+          <div>
+    
+          </div>
+        </nav>
+
+        <!-- carousel -->
+        <div class="IBSEN_carousel container-fluid row ">
+          <div id="carouselExampleControls" class="carousel slide IBSEN_carouselContent col-sm-7 mx-auto" data-ride="carousel">
+            <div class="carousel-inner ">
+              <div class="carousel-item active">  
+                <a id="video2" video-url="https://www.youtube.com/watch?v=SR5ja-3pBz0">
+                  <img src="./img/sanKhau.jpg">
+                  <div class="carousel-item_black" id="carousel-item_black">
+                  <i class="fa fa-play"></i>
+                </div>
+                </a>
+
+              </div>
+              <div class="carousel-item">
+                <img src="./img/Service-Learning-UEF-Quan-TriThuong-Hieu (1).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/Service-Learning-UEF-Quan-Tri-Thuong-Hieu (4) (1).jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </header>
+
+    <section class="intro_action container-fluid" > 
+        <h2 class="text-center">Giới Thiệu về IBSEN</h2>
+        <div class="intro_actionContent row">
+          <div class="col-md-6 col-sm-12 intro_item row " >
+            <div class="col-md-4 intro_icon">
+              <i class="fa fa-school "></i>
+            </div>
+            <div class="col-md-8 intro_text">
+              <h3>Năm thành lập: 2019</h3>
+              <h3>Lĩnh vực: Giáo dục.</h3>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12 intro_item row">
+            <div class="col-md-4 intro_icon">
+              <i class="fa fa-user-tie"></i>
+            </div>
+            <div class="col-md-8 intro_text">
+              <h3>Đối tượng thụ hưởng:</h3>
+              <p>Dân tộc thiểu số, Đồng tính, song tính và chuyển giới – LGBT, Nam Giới, Nạn nhân bạo hành gia đình, Nạn nhân của tình trạng buôn người, Người già (trên 60 tuổi), Người khuyết tật, Người hành nghề mại dâm, Người nhập cư, Người nghèo, Người sống cùng HIV/AIDS, Phụ nữ, Thanh niên (16 đến 25), Trẻ em.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="intro_actionContent row">
+          <div class="col-md-6 col-sm-12 intro_item row " data-toggle="modal" data-target="#staticBackdropDB">
+            <div class="col-md-4 intro_icon">
+              <i class="fa fa-globe"></i>
+            </div>
+            <div class="col-md-8 intro_text">
+              <h3>Địa bàn hoạt động:</h3>
+              <p>Tp. Hồ Chí Minh, Đà Nẵng, Hà Nội, Bắc Giang, Bắc Kạn, Bến Tre, Bình Định, Bình Thuận, Cà Mau, Đắk Nông, Điện Biên, Gia Lai, Hà Giang, Hải Dương, Hậu Giang, Khánh Hòa, Kiên Giang, Lâm Đồng, Lạng Sơn, Nam Định, Nghệ An, Quảng Bình, Quảng Trị, Thái Bình, Tiền Giang, Vĩnh Phúc, Hải Phòng, Phú Thọ, Quảng Ninh, Tây Ninh...
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12 intro_item row">
+            <div class="col-md-4 intro_icon">
+              <i class="fa fa-highlighter"></i>
+            </div>
+            <div class="col-md-8 intro_text">
+              <h3>Giới thiệu:</h3>
+              <p>Sân Khấu Nhỏ Ibsen muốn có một căn phòng nhỏ để đón nhận nhiều lượt người tham gia hơn với chi phí tiết kiệm nhất.
+                Hãy liên hệ với chúng tôi nếu bạn cần Sân Khấu Nhỏ Ibsen bày những buổi chơi trò chơi tương tác cho tổ chức của bạn. Hãy liên hệ với chúng tôi nếu bạn có thông tin về một CĂN PHÒNG TRỐNG nào đó muốn đón nhận Sân Khấu Nhỏ Ibsen.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="intro_actionContent row">
+          <div class="col-md-6 col-sm-12 intro_item row">
+            <div class="col-md-4 intro_icon">
+              <i class="fa fa-running"></i>
+            </div>
+            <div class="col-md-8 intro_text">
+              <h3>Hoạt động:</h3>
+              <p>- Hoạt động chính: Những buổi chơi Sân Khấu Nhỏ Ibsen.<br>
+                - 2 - 3 tiếng/buổi.<br>
+                - 3 - 5 buổi/ tuần.<br>
+                - 10- 20 người/ buổi chơi.<br>
+                - Vui thoải mái, được chia sẻ, trò chuyện thật lòng với chính mình và với mọi người.<br></p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12 intro_item row">
+            <div class="col-md-4 intro_icon">
+              <i class="fa fa-user-friends"></i>
+            </div>
+            <div class="col-md-8 intro_text">
+              <h3>Vấn đề đang giải quyết:</h3>
+              <p>Sân Khấu Nhỏ Ibsen muốn có một căn phòng nhỏ để đón nhận nhiều lượt người tham gia hơn với chi phí tiết kiệm nhất.<br>
+                Hãy liên hệ với chúng tôi nếu bạn cần Sân Khấu Nhỏ Ibsen bày những buổi chơi trò chơi tương tác cho tổ chức của bạn. Hãy liên hệ với chúng tôi nếu bạn có thông tin về một CĂN PHÒNG TRỐNG nào đó muốn đón nhận Sân Khấu Nhỏ Ibsen.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="intro_actionContent row">
+          <div class="col-md-6 col-sm-12 intro_item row">
+            <div class="col-md-4 intro_icon">
+              <i class="fab fa-readme"></i>
+            </div>
+            <div class="col-md-8 intro_text" data-toggle="modal" data-target="#staticBackdropKQ">
+              <h3>Kết quả/Thành tích:</h3>
+              <p>Sau 1,5 tháng chạy dự án, Sân Khấu Nhỏ Ibsen tổ chức được 11 buổi chơi tại Thái Lan và Việt Nam cho khoảng 200 lượt người tham gia. Trong tháng 7, tháng 8/2019, Sân Khấu Nhỏ Ibsen nhận lời mời tổ chức cho hơn 10 cơ sở xã hội nữa tại TPHCM, Sóc Trăng, Vũng Tàu, Bảo Lộc,...<br>
+                Ngoài ra, để bổ sung thêm kiến thức và kinh nghiệm, chúng tôi...
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12 intro_item row">
+            <div class="col-md-4 intro_icon ">
+              <i class="fa fa-hand-holding" ></i>
+            </div>
+            <div class="col-md-8 intro_text">
+              <h3>Chúng tôi đang ấp ủ điều gì?</h3>
+              <p>Phần I: tới với các cơ sở xã hội và những người thương.<br>
+                Phần II: tới với các bệnh nhân trong các bệnh viện tại TPHCM.<br>
+                Phần III: tới với Việt Kiều tại Campuchia (Phnom Penh, Tonle Sap), Lào (Pakse, Vien Chan) và Đông Bắc Thái Lan.<br>
+                Phần IV: tới với những Người Phục Vụ tại những nơi mà Sân Khấu Nhỏ Ibsen đã giúp trong phần I, II, III.<br></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdropDB" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="color:black">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel"><i class="fa fa-globe"></i> Địa bàn hoạt động:</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p>Tp. Hồ Chí Minh, Đà Nẵng, Hà Nội, Bắc Giang, Bắc Kạn, Bến Tre, Bình Định, Bình Thuận, Cà Mau, Đắk Nông, Điện Biên, Gia Lai, Hà Giang, Hải Dương, Hậu Giang, Khánh Hòa, Kiên Giang, Lâm Đồng, Lạng Sơn, Nam Định, Nghệ An, Quảng Bình, Quảng Trị, Thái Bình, Tiền Giang, Vĩnh Phúc, Hải Phòng, Phú Thọ, Quảng Ninh, Tây Ninh, Bà Rịa - Vũng Tàu, Thừa Thiên Huế, An Giang, Bắc Ninh, Vĩnh Long, Bạc Liêu, Bình Dương, Bình Phước, Cần Thơ, Cao Bằng, Đắk Lắk, Đồng Nai, Hà Nam, Đồng Tháp, Hòa Bình, Hà Tĩnh, Kon Tum, Hưng Yên, Lào Cai, Lai Châu, Ninh Bình, Long An, Ninh Thuận, Quảng Nam, Quảng Ngãi, Sóc Trăng, Sơn La, Thái Nguyên, Thanh Hóa, Trà Vinh, Tuyên Quang, Phú Yên, Yên Bái.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdropKQ" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="color: black;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel"><i class="fab fa-readme"></i>  Kết quả/Thành tích:</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p>Sau 1,5 tháng chạy dự án, Sân Khấu Nhỏ Ibsen tổ chức được 11 buổi chơi tại Thái Lan và Việt Nam cho khoảng 200 lượt người tham gia. Trong tháng 7, tháng 8/2019, Sân Khấu Nhỏ Ibsen nhận lời mời tổ chức cho hơn 10 cơ sở xã hội nữa tại TPHCM, Sóc Trăng, Vũng Tàu, Bảo Lộc,...
+        Ngoài ra, để bổ sung thêm kiến thức và kinh nghiệm, chúng tôi còn tham dự nhiều buổi tập huấn về Sức Khỏe Cộng Đồng, Công Tác Xã Hội, Quyền Trẻ Em và những buổi tập huấn của LIN - RÚT NGẮN KHOẢNG CÁCH,...
+        Fanpage Ibsen Tiny Stage - Sân Khấu Nhỏ Ibsen được hình thành và luôn cập nhật.
+        Tạo được 2 "Nhóm Hạt Giống" tại Thái Lan và Việt Nam.
+        Và đặc biệt là hiệu quả tốt cho những người tham gia, đó là động lực tinh thần rất lớn để chúng tôi tiếp tục thực hiện Sân Khấu Nhỏ Ibsen.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      </section> 
+
+      <section class="action " data-toggle="modal" data-target="#staticBackdropTC">
+        <h2 class="text-center text-white">Hoạt Động</h2>
+        <div class="action_content row container-fluid">
+          <div class="action_item col-lg-6 col-sm-6 col-xl-3 container">
+            <div class="card" >
+              <img class="card-img-top" src="./img/hoatDongTreEm.jpg" alt="" style="width: 100%;">
+              <div class="card-body">
+                <h4 class="card-title">IBSEN - NHỮNG BUỔI CHƠI</h4>
+                <p class="card-text">Trò chơi và những Chú Rối của Sân Khấu Nhỏ Ibsen rất dễ làm , dễ chơi. Bạn chỉ cần chuẩn bị một Cái Đầu Trống Rỗng để cùng Sân Khấu Nhỏ Ibsen quay về tuổi thơ tươi đẹp. Chuẩn bị một Cái Đầu Trống Rỗng như thế nào? Dễ lắm. Chơi đi rồi biết!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="action_item col-lg-6 col-sm-6 col-xl-3 container " data-toggle="modal" data-target="#staticBackdropVD">
+            <div class="card">
+              <video controls class="img-card-top" style="width: 100%;" >
+                <source src="./img/videoIBS.mp4" type="video/mp4" >
+            </video>
+              <div class="card-body">
+                <h4 class="card-title">LỒNG GHÉP MÔ HÌNH SERVICE - LEARNING VÀO MÔN HỌC "LỢI - HẠI" NHƯ THẾ NÀO?</h4>
+                <p class="card-text">🎉Lại một môn học có lồng ghép mô hình học tập thông qua phục vụ cộng đồng hoàn thành với nhiều chia sẻ thú vị.<br>
+                  📖Trong quá trình học tập, các bạn...</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="action_item col-lg-6 col-sm-6 col-xl-3 container" data-toggle="modal" data-target="#staticBackdropCD">
+            <div class="card">
+              <img class="card-img-top" src="./img/trinhBayKeHoach1.jpg" alt="" style="width: 100%;">
+              <div class="card-body">
+                <h4 class="card-title">Hoạt động phục vụ cộng đồng được lồng ghép vào môn Quản trị thương hiệu</h4>
+                <p class="card-text">Sáng ngày 25/6 vừa qua, môn học Quản trị thương hiệu lồng ghép hoạt động Service - Learning do ThS. Lý Đan Thanh – Phó Trưởng khoa Kinh tế hướng dẫn đã diễn ra buổi báo cáo tổng kết thật đặc biệt.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="action_item col-lg-6 col-sm-6 col-xl-3 container" data-toggle="modal" data-target="#staticBackdropCC">
+            <div class="card">
+              <img class="card-img-top" src="./img/hoatDongTreEm.jpg" style="width: 100%;" alt="">
+              <div class="card-body">
+                <h4 class="card-title">IBSEN - NHỮNG BUỔI CHƠI</h4>
+                <p class="card-text">Trò chơi và những Chú Rối của Sân Khấu Nhỏ Ibsen rất dễ làm , dễ chơi. Bạn chỉ cần chuẩn bị một Cái Đầu Trống Rỗng để cùng Sân Khấu Nhỏ Ibsen quay về tuổi thơ tươi đẹp. Chuẩn bị một Cái Đầu Trống Rỗng như thế nào? Dễ lắm. Chơi đi rồi biết!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdropTC" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        12345
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="staticBackdropVD" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        123456
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="staticBackdropCD" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        1234567
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="staticBackdropCC" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        12345678910
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </section>
+
+      <section class="story">
+        <h2 class="text-center">Câu Chuyện</h2>
+        <div class="story_content container">
+          <div class="story_item row ">
+            <div class="col-sm-12 col-md-4 story_img">
+              <img src="img/introIBSEN.jpg" style="width: 100%;">
+            </div>
+            
+            <div class="col-sm-6 col-md-8 story_text ">
+              <h3 class="text-center ">SÂN KHẤU NHỎ IBSEN LÀ GÌ?</h3>
+              <h6 class="text-center">Fanpage: Ibsen Tiny Stage – Sân Khấu Nhỏ Ibsen</h6>
+              <p>Động lực chia sẻ Sân Khấu Nhỏ Ibsen: Mình là Bảo Dung, tốt nghiệp Đạo Diễn Sân Khấu tại TPHCM. Cách đây hơn 13 năm, khi cảm nhận được có dấu hiệu trầm cảm, mình chủ động đi tìm bác sĩ tâm lý. Bất ngờ là chỉ sau 2 lần trò chuyện, những dầu hiệu trầm cảm của mình giảm hơn 90%. Mừng quá, và lạ lùng là bác sỹ tâm lý “có chữa gì đâu”, toàn hỏi để mình trả lời. Thì ra, có được một môi trường an toàn để nói ra, để chia sẻ là một cách giải tỏa tâm lý hiệu quả! Năm 2017, có dịp thăm bảo tàng của Ngài Henrik Ibsen, kịch tác gia nổi tiếng của Nauy, tại Skien - Nauy, mình bị cuốn hút bởi Mô Hình Sân Khấu Nhỏ của Ngài, và muốn làm một dự án với nó. Sau đó, mình tới làng Kuhlhausen, Havelberg, Đức để thực hiện một dự án cộng đồng về văn hóa Đức và Việt Nam trong 1 tháng. Và theo mình thấy, cách khơi gợi để những người dân trong làng mở lòng kể chuyện văn hóa của họ, giao lưu văn hóa Đức - Việt Nam mang lại hiệu quả cao về mặt tinh thần cho cuộc sống tuổi già gần như cô lập của họ. Ngoài ra, cũng có nhiều cơ duyên khác đến tạo động lực cho mình hình thành Sân Khấu Nhỏ Ibsen tại Thái Lan vào tháng 4/ 2019, và sau đó mang về quê hương Việt Nam tháng 5/2019.</p>
+            </div>
+
+          </div>
+
+          <div class="story_item row ">
+
+            <div class="col-sm-6 col-md-8 story_text ">
+              <h3 class="text-center ">Nội dung Sân Khấu Nhỏ Ibsen</h3>
+              
+              <p> Ở thời đại quay cuồng này, chúng ta có rất ít cơ hội để trò chuyện thực sự, cởi mở thật lòng. Hầu hết, ai cũng chất chứa những nỗi lòng, từ đó ảnh hưởng không hay tới hành động và quyết định trong cuộc sống hằng ngày. Có người nhận ra vấn đề, có người không nhận ra, hoặc sợ đối diện. “Sân Khấu Nhỏ Ibsen” là những buổi chơi TRÒ CHƠI VÀ RỐI TƯƠNG TÁC, giúp tạo môi trường an toàn, thoải mái, hài hước, để Người Tham Gia có cơ hội kết nối và trò chuyện với chính mình và với mọi người. Hiệu quả tùy thuộc vào từng người đón nhận và cảm nhận. Hãy cùng Sân Khấu Nhỏ Ibsen quay trở về tuổi thơ của bạn!</p>
+              <p>Điểm khác biệt của Sân Khấu Nhỏ Ibsen so với các khóa học khác hiện có cùng phương pháp/công cụ: Trò chơi và Con Rối rất dễ làm, dễ chơi. Cần một Cái Đầu Trống Rỗng để chơi Sân Khấu Nhỏ Ibsen hiệu quả nhất.</p>
+            </div>
+
+            <div class="col-sm-12 col-md-4 story_img">
+              <img src="img/hinhHoatDongTroChoi.jpg" style="width: 100%;">
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+      <section class="news">
+        <h2 class="text-center">Tin Tức</h2>
+        
+        <div class="news_content container mx-auto row">
+          <div class="news_item row col-sm-12 col-md-6">
+            <div class="news_img col-sm-4 ">
+              <img src="./img/Service-Learning-UEF-Quan-TriThuong-Hieu (1).jpg" style="width: 100%;">
+            </div>
+            <div class="col-sm-8 news_text ">
+              <a href="#" ><h6 class="font-weight-bolder">Hoạt động phục vụ cộng đồng được lồng ghép vào môn Quản trị thương hiệu</h6></a>
+              
+            </div>
+          </div>
+
+          <div class="news_item row col-sm-12 col-md-6">
+            <div class="news_img col-sm-4 ">
+              <img src="./img/Service-Learning-UEF-Quan-TriThuong-Hieu (1).jpg" style="width: 100%;">
+            </div>
+            <div class="col-sm-8 news_text ">
+              <a href="#" ><h6 class="font-weight-bolder">Hoạt động phục vụ cộng đồng được lồng ghép vào môn Quản trị thương hiệu</h6></a>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="news_content container mx-auto row">
+          <div class="news_item row col-sm-12 col-md-6">
+            <div class="news_img col-sm-4 ">
+              <img src="./img/Service-Learning-UEF-Quan-TriThuong-Hieu (1).jpg" style="width: 100%;">
+            </div>
+            <div class="col-sm-8 news_text ">
+              <a href="#" ><h6 class="font-weight-bolder">Hoạt động phục vụ cộng đồng được lồng ghép vào môn Quản trị thương hiệu</h6></a>
+              
+            </div>
+          </div>
+
+          <div class="news_item row col-sm-12 col-md-6">
+            <div class="news_img col-sm-4 ">
+              <img src="./img/Service-Learning-UEF-Quan-TriThuong-Hieu (1).jpg" style="width: 100%;">
+            </div>
+            <div class="col-sm-8 news_text ">
+              <a href="#" ><h6 class="font-weight-bolder">Hoạt động phục vụ cộng đồng được lồng ghép vào môn Quản trị thương hiệu</h6></a>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="IBS_partner container">
+        <h2 class="text-center">Đối Tác</h2>
+  
+        <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4, } ' class="autoplay ">
+  
+          <div class="IBS_partnerImg">
+            <img src="./img/IBS_LogoDoiTac (1).jpg"/>
+          </div>
+            
+          <div class="IBS_partnerImg">
+            <img src="./img/IBS_LogoDoiTac (1).png"/>
+          </div>
+  
+          <div class="IBS_partnerImg">
+            <img src="./img/IBS_LogoDoiTac (2).jpg"/>
+          </div>
+  
+          <div class="IBS_partnerImg">
+            <img src="./img/IBS_LogoDoiTac (2).png"/>
+          </div>
+  
+          <div class="IBS_partnerImg">
+            <img src="./img/IBS_LogoDoiTac (3).jpg"/>
+          </div>
+  
+          <div class="IBS_partnerImg">
+            <img src="./img/IBS_LogoDoiTac (4).jpg"/>
+          </div>
+  
+          <div class="IBS_partnerImg">
+            <img src="./img/IBS_LogoDoiTac (5).jpg"/>
+          </div>
+  
+          <div class="IBS_partnerImg">
+            <img src="./img/IBS_LogoDoiTac (6).jpg"/>
+          </div>
+  
+         
+          </div>
+  
+  
+        </div>
+      </section>
+
+      <section class="IBS_Contanct container">
+        <h2 class="text-center">Phản Hồi</h2>
+        <form>
+          <div class="IBS_ContanctConent row" >
+            <div class="col-sm-6">
+              <div class="form-group">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Nhập họ tên của bạn" >
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <input type="text" name="email" id="email" class="form-control" placeholder="Nhập emailcủa bạn" >
+              </div>
+            </div>
+            <div class="form-group">
+             <textarea name="option" id="option" cols="200" rows="10" class="form-control" placeholder="Nhập phản hồi của bạn" style="width: 98%; margin-left: 12px;"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-danger col-sm-12">Danger</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- <footer class="container-fluid">
+        <h2 class="text-center">Góc Chia Sẻ</h2>
+        <div class="footer_content row mx-auto">
+          <div class="col-sm-12 col-md-8 footer_item row">
+            <div class="col-sm-2 footer_icon">
+              <i class="fa fa-user-friends"></i>
+            </div>
+            <div class="col-sm-10 footer_text">
+              <p>Sân khấu nhỏ IBSEN nghe nè.<br> Sân Khấu nhỏ IBSEN sẽ gửi những chia sẻ của bạn vào Vũ Trụ. </p>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-8 footer_item row">
+            <div class="col-sm-2 footer_icon">
+              <i class="fa fa-phone-volume"></i>
+            </div>
+            <div class="col-sm-10 footer_text">
+              <p>098 810 63 84 </p>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-8 footer_item row">
+            <div class="col-sm-2 footer_icon">
+              <i class="fa fa-envelope"></i>
+            </div>
+            <div class="col-sm-10 footer_text">
+              <p>ibsentinystage@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-8 footer_item row">
+            <div class="col-sm-2 footer_icon">
+              <i class="fa fa-home"></i>
+            </div>
+            <div class="col-sm-10 footer_text">
+              <p>Trang Web nghệ thuật và nhân văn</p>
+            </div>
+          </div>
+
+        </div>
+      </footer> -->
+
+
+      <footer class="row container-fluid" > 
+        <div class="col-sm-4">
+          <h4>Chúng tôi đang ấp ủ điều gì </h4>
+          <ul>
+            <li>Phần I: tới với các cơ sở xã hội và những người thương.</li>
+            <li>Phần II: tới với các bệnh nhân trong các bệnh viện tại TPHCM.</li>
+            <li>Phần III: tới với Việt Kiều tại Campuchia (Phnom Penh, Tonle Sap), Lào (Pakse, Vien Chan) và Đông Bắc Thái Lan.</li>
+            <li>Phần IV: tới với những Người Phục Vụ tại những nơi mà Sân Khấu Nhỏ Ibsen đã giúp trong phần I, II, III</li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h4>Hoạt động</h4>
+          <ul>
+            <li>2 - 3 tiếng/buổi.</li>
+            <li>3 - 5 buổi/ tuần.</li>
+            <li>10- 20 người/ buổi chơi.</li>
+            <li>Vui thoải mái, được chia sẻ, trò chuyện thật lòng với chính mình và với mọi người.</li>
+  
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h4>Thông tin liên hệ</h4>
+          <p> <i class="fa fa-envelope"></i> ibsentinystage@gmail.com</p>  
+          <p><i class="fa fa-mobile"></i> 0988 106 384</p>
+          <p><a href="https://www.facebook.com/sankhaunhoibsen"><i class="fab fa-facebook-f"></i> Sân Khấu ibSen</a></p>
+        </div>
+  
+        <div class="col-sm-2">
+          <h4>Quyên góp</h4>
+          <p>Sân Khấu Nhỏ Ibsen <b>cảm ơn bạn </b>đã tạo cơ hội cho một người nữa được vui chơi.</p>
+          <img src="./img/generate.png" style="width: 90%"/>
+        </div>
+      </footer>
+
+
+         
+    <a href="#" class="toTop text-replace js-cd-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+
+
+
+
+
+      <script src="node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="node_modules/popper.js/dist/popper.min.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+    <script src="./JavaScript/video.popup.js"></script>
+    <script>
+        $("#video1, #video2").videoPopup();
+        
+      </script>
+      <script src="./JavaScript/slick.min.js"></script>
+      <script>
+
+        $('.autoplay').slick({
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          arows: true,
+    
+    
+        });
+    
+      </script>
+
+      <script src="./JavaScript/util.js"></script>
+      <script src="./JavaScript/baToTop.js"></script>
+
+     
+</body>
+</html>
